@@ -1,0 +1,31 @@
+{
+  "name": "quizgen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "firebase": "^10.12.0",
+    "lucide-react": "^0.378.0",
+    "motion": "^11.1.1",
+    "next": "15.0.0",
+    "pdfjs-dist": "^3.11.174",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^9.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "typescript": "^5"
+  }
+}
